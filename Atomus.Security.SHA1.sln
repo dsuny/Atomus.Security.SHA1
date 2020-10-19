@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B728B819-3A15-4481-946C-3D2673014F39}"
+	ProjectSection(SolutionItems) = preProject
+		src\SHA1.cs = src\SHA1.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atomus.Security.SHA1(dotNet)", "dotNet\Atomus.Security.SHA1(dotNet).csproj", "{A181AA42-E1E5-418C-A239-A952BCDAB8F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atomus.Security.SHA1(dotNetCore)", "dotNetCore\Atomus.Security.SHA1(dotNetCore).csproj", "{4F1BDB31-53F4-4DF2-B2F2-8A96AA30C1A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atomus.Security.SHA1(dotNetStandard)", "dotNetStandard\Atomus.Security.SHA1(dotNetStandard).csproj", "{24D0AFA5-DECF-4711-97CB-194180818DC8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A181AA42-E1E5-418C-A239-A952BCDAB8F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A181AA42-E1E5-418C-A239-A952BCDAB8F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A181AA42-E1E5-418C-A239-A952BCDAB8F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A181AA42-E1E5-418C-A239-A952BCDAB8F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F1BDB31-53F4-4DF2-B2F2-8A96AA30C1A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F1BDB31-53F4-4DF2-B2F2-8A96AA30C1A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F1BDB31-53F4-4DF2-B2F2-8A96AA30C1A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F1BDB31-53F4-4DF2-B2F2-8A96AA30C1A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24D0AFA5-DECF-4711-97CB-194180818DC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24D0AFA5-DECF-4711-97CB-194180818DC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24D0AFA5-DECF-4711-97CB-194180818DC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24D0AFA5-DECF-4711-97CB-194180818DC8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0ADA7B83-8155-4C15-9E15-4D7757E57392}
+	EndGlobalSection
+EndGlobal
